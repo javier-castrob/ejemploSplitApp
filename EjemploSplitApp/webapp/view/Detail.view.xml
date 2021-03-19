@@ -1,0 +1,21 @@
+<mvc:View controllerName="EjemploSplitApp.EjemploSplitApp.controller.Detail" xmlns:layout="sap.ui.layout"
+	xmlns:f="sap.ui.layout.form" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+    <Page id="page" title="{i18n>detail}">
+        <content>
+            <f:SimpleForm title="{i18n>titleDetail}">
+                <f:content>
+                    <Label text="Producto"/>
+                    <Text text="{Producto>/producto}" />
+                    <Label text="Proveedor"/>
+                    <Text text="{Producto>/proveedor}" />
+                    <Label text="Tamaño"/>
+                    <Text text="{Producto>/tamaño}" />
+                    <Label text="Peso"/>
+                    <Text text="{Producto>/peso}" />
+                    <Label text="Valor"/>
+                    <Text text="{Producto>/valor}" />
+                </f:content>
+            </f:SimpleForm>
+        </content>
+    </Page>
+</mvc:View>
